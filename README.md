@@ -8,12 +8,15 @@ Azure Storage Services Implemented
 Customers Table: Customer profiles (name, email, address, username)
 Products Table: Product information (name, description, price, stock, image URL)
 Orders Table: Order details (customer, product, quantity, pricing, status)
+
 2. Azure Blob Storage
 product-images Container: Public access for product images
 payment-proofs Container: Private access for sensitive documents
+
 3. Azure Queues
 order-notifications Queue: Order creation and processing messages
 stock-updates Queue: Inventory management notifications
+
 4. Azure File Shares
 contracts Share: Organized storage for contracts and payment proofs
 Core Features
